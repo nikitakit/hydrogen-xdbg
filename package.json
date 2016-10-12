@@ -1,0 +1,31 @@
+{
+  "name": "hydrogen-xdbg",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+    "hydrogen",
+    "jupyter",
+    "ipython",
+    "xdbg"
+  ],
+  "consumedServices": {
+    "hydrogen.provider": {
+      "versions": {
+        "^0.0.2": "consumeHydrogen"
+      }
+    },
+      "status-bar": {
+        "versions": {
+          "^1.0.0": "consumeStatusBar"
+        }
+      }
+  },
+  "repository": "https://github.com/nikitakit/hydrogen-xdbg",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
