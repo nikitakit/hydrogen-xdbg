@@ -1,7 +1,7 @@
 {
   "name": "hydrogen-xdbg",
   "main": "./lib/main",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Improved live coding for Python 3",
   "keywords": [
     "hydrogen",
