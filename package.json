@@ -1,7 +1,7 @@
 {
   "name": "hydrogen-xdbg",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A short description of your package",
   "keywords": [
     "hydrogen",
@@ -15,17 +15,16 @@
         "^0.0.3": "consumeHydrogen"
       }
     },
-      "status-bar": {
-        "versions": {
-          "^1.0.0": "consumeStatusBar"
-        }
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
       }
+    }
   },
   "repository": "https://github.com/nikitakit/hydrogen-xdbg",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
