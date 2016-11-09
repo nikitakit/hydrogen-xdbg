@@ -2,11 +2,12 @@
   "name": "hydrogen-xdbg",
   "main": "./lib/main",
   "version": "0.0.1",
-  "description": "A short description of your package",
+  "description": "Improved live coding for Python 3",
   "keywords": [
     "hydrogen",
     "jupyter",
     "ipython",
+    "python",
     "xdbg"
   ],
   "consumedServices": {

@@ -8,7 +8,7 @@ The plugin is currently highly experimental. It interacts with Hydrogen internal
 
 ## Usage
 
-* Install `hydrogen` (from git) and `hydrogen-xdbg` into Atom. Also install `xdbg` into your python environment.
+* Install `hydrogen` and `hydrogen-xdbg` into Atom. Also install `xdbg` into your python environment.
 * Connect hydrogen to a remote Python kernel on a notebook server or gateway. (Local ZMQ Kernels are not supported).
 * Import some modules from local files.
 * As you switch between files in hydrogen, watch the status bar keep track of which module code will be run in.
