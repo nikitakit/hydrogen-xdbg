@@ -111,9 +111,13 @@ module.exports = HydrogenLauncher =
             return
 
         console.log "Requesting switch to scope", currentPath
-        future = session.kernel.execute(
+
+        executeRequest =
             code: "%scope " + currentPath
-        )
+        if session.kernel.execute?
+            future = session.kernel.execute(executeRequest)
+        else
+            future = session.kernel.requestExecute(executeRequest)
         # future = kernel._xdbgcomm.send(
         #     path: currentPath
         # )
